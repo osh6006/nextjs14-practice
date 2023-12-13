@@ -20,7 +20,6 @@ export default function SignupModal() {
   const onChangeId: ChangeEventHandler<HTMLInputElement> = (e) => {
     setId(e.target.value);
   };
-
   const onChangePassword: ChangeEventHandler<HTMLInputElement> = (e) => {
     setPassword(e.target.value);
   };
